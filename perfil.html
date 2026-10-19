@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #141e30, #243b55);
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cartao-perfil {
+            background-color: white;
+            width: 350px;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .foto-perfil {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #243b55;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .botoes {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .botoes a {
+            background-color: #243b55;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            flex: 1;
+        }
+
+        .botoes a:hover {
+            background-color: #456b91;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section class="cartao-perfil">
+
+            <img src="foto.jpg" alt="Foto de perfil"
+                 class="foto-perfil">
+
+            <h1>Clara</h1>
+
+            <p class="bio">Estudante de Desenvolvimento de Sistemas</p>
+
+            <div class="botoes">
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
